@@ -55,4 +55,5 @@ Se o seu artigo ainda não tiver certa tradução, você deverá colocar `null` 
 > Antes de enviar sua contribuição, confira se todas as regras foram seguidas.
 > Caso contrário, sua pull request pode ser recusada.
 
+Pull Requests deverão ser inicialmente feitas à ramificação `staging`.
 Se tiver dúvidas, sinta-se à vontade para perguntar. Obrigado por contribuir com a Waypédia!
