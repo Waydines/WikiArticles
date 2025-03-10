@@ -54,4 +54,5 @@ If your article doesn't have a certain translation yet, you may put `null` (with
 > Before submitting your contribution, make sure all the rules have been followed.
 > Otherwise, your pull request may be rejected.
 
+Pull Requests shall be initially made to the `staging` branch.
 If you have any questions, feel free to ask. Thank you for contributing to Waypedia!
