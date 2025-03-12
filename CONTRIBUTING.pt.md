@@ -47,7 +47,7 @@ Após criar o artigo ou adicionar uma tradução a ele, adicione a seguinte entr
 
 **⚠ Não inclua .mdx no final do nome do artigo na definição acima.**
 
-Se o seu artigo ainda não tiver certa tradução, você deverá colocar `null` (sem aspas em volta) invés de algum nome de arquivo.
+Se o seu artigo ainda não tiver certa tradução, você deverá retirar a linha que definiria o nome do arquivo daquela respectiva língua.
 
 ## Revisão e Pull Requests
 

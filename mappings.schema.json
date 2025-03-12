@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "$schema": { "type": "string" }
+    },
+    "patternProperties": {
+        ".*": {
+            "type": "object",
+            "properties": {
+                "en": { "type": "string" },
+                "pt": { "type": "string" }
+            },
+            "anyOf": [{ "required": ["en"] }, { "required": ["pt"] }],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}

@@ -46,7 +46,7 @@ After creating the article or adding a translation to it, add the following entr
 ```
 
 **⚠ Do not include .mdx at the end of the article name in this definition.**
-If your article doesn't have a certain translation yet, you may put `null` (without quotation marks) in the place where the file name would be.
+If your article doesn't have a certain translation yet, you may remove the line where the path to the specific translation would be specified.
 
 ## Review and Pull Requests
 

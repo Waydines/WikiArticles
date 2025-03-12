@@ -1,3 +1,8 @@
 {
+    "$schema": "./mappings.schema.json",
     
+    "waydines": {
+        "pt": "waydines",
+        "en": "waydines"
+    }
 }
