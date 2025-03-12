@@ -29,6 +29,7 @@ Cada artigo deve começar com uma _frontmatter_ no seguinte formato:
 id: "identificador único do artigo (deve ser o mesmo entre traduções)" # OBRIGATÓRIO
 title: "Título do artigo" # OBRIGATÓRIO
 banner: "URL de uma imagem banner" # opcional
+short_description: "descrição extremamente curta (algo como 5 palavras) para o artigo" # optional
 ---
 ```
 

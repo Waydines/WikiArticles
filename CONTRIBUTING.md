@@ -27,8 +27,9 @@ Each article must start with a _frontmatter_ formatted as follows:
 ```yml
 ---
 id: "Unique article identifier (must be the same across translations)" # REQUIRED
-title: "Article title" # REQUIRES
+title: "Article title" # REQUIRED
 banner: "URL for a banner image" # optional
+short_description: "extremely short (something like 5 words long) description for the article" # optional
 ---
 ```
 
