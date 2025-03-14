@@ -30,10 +30,11 @@ id: "Unique article identifier (must be the same across translations)" # REQUIRE
 title: "Article title" # REQUIRED
 banner: "URL for a banner image" # optional
 short_description: "extremely short (something like 5 words long) description for the article" # optional
+stub: false # optional, set to true if the article is too short due to lack of information
 ---
 ```
-
-🔹 The `id` field must be identical for all translated versions of the articles.
+`optional` means you don't necessarily need to include it in the _frontmatter_.
+⚠ The `id` field must be identical for all translated versions of the articles.
 
 ## Updating `mappings.json`
 
