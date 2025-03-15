@@ -1,8 +1,12 @@
 {
-    "$schema": "./mappings.schema.json",
-    
-    "waydines": {
-        "pt": "waydines",
-        "en": "waydines"
-    }
+  "$schema": "./mappings.schema.json",
+
+  "waydines": {
+    "pt": "waydines",
+    "en": "waydines"
+  },
+  "cupertinokurt": {
+    "pt": "cupertino kurt",
+    "en": "cupertino kurt"
+  }
 }
