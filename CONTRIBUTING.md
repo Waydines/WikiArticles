@@ -10,7 +10,7 @@ Articles should be `.mdx` files and must be placed in the `src` folder. The file
 
 - Use only lowercase letters
 - Do not use accents, diacritics or special characters
-- Avoid using more than one consecutive space, unless really necessary
+- Replace any spaces with `_`
 - No spaces at the beginning or end of the name
 
 ## Organizing by Language

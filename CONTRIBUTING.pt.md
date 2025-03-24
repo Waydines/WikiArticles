@@ -10,7 +10,7 @@ Os artigos devem ser arquivos `.mdx` e devem ser adicionados à pasta `src`. O n
 
 - Use apenas letras minúsculas
 - Não use acentos ou caracteres especiais
-- Evite usar mais de um espaço consecutivamente, a não ser que realmente seja necessário
+- Substitua os espaços por `_`
 - Não deixe espaços no início ou fim do nome
 
 ## Organização por Idioma
