@@ -10,7 +10,7 @@ Os artigos devem ser arquivos `.mdx` e devem ser adicionados à pasta `src`. O n
 
 - Use apenas letras minúsculas
 - Não use acentos ou caracteres especiais
-- Evite usar mais de um espaço consecutivamente, a não ser que realmente seja necessário
+- Substitua os espaços por `_`
 - Não deixe espaços no início ou fim do nome
 
 ## Organização por Idioma
@@ -29,10 +29,12 @@ Cada artigo deve começar com uma _frontmatter_ no seguinte formato:
 id: "identificador único do artigo (deve ser o mesmo entre traduções)" # OBRIGATÓRIO
 title: "Título do artigo" # OBRIGATÓRIO
 banner: "URL de uma imagem banner" # opcional
+short_description: "descrição extremamente curta (algo como 5 palavras) para o artigo" # opcional
+stub: false # opcional, coloque true se o artigo for curto demais por falta de informação
 ---
 ```
-
-🔹 O campo `id` deve ser o mesmo para todas as versões traduzidas do artigo.
+`opcional` significa que você não precisa incluir a propriedade na _frontmatter_.
+⚠ O campo `id` deve ser o mesmo para todas as versões traduzidas do artigo.
 
 ## Atualizando o `mappings.json`
 
@@ -47,7 +49,7 @@ Após criar o artigo ou adicionar uma tradução a ele, adicione a seguinte entr
 
 **⚠ Não inclua .mdx no final do nome do artigo na definição acima.**
 
-Se o seu artigo ainda não tiver certa tradução, você deverá colocar `null` (sem aspas em volta) invés de algum nome de arquivo.
+Se o seu artigo ainda não tiver certa tradução, você deverá retirar a linha que definiria o nome do arquivo daquela respectiva língua.
 
 ## Revisão e Pull Requests
 
