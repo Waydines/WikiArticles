@@ -29,6 +29,7 @@ Each article must start with a _frontmatter_ formatted as follows:
 id: "Unique article identifier (must be the same across translations)" # REQUIRED
 title: "Article title" # REQUIRED
 banner: "URL for a banner image" # optional
+embed_image: "URL for the image that will show up in embed" # optional, if not specified, the banner will be used as embed image
 short_description: "extremely short (something like 5 words long) description for the article" # optional
 stub: false # optional, set to true if the article is too short due to lack of information
 ---
